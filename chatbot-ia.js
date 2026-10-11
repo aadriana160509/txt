@@ -46,7 +46,7 @@ formularioChat.addEventListener("submit", async function (evento) {
 
     try {
         const respuesta = await fetch(
-            "/.netlify/functions/chat",
+            "https://txt-chatbot.ag6391949.workers.dev/"
             {
                 method: "POST",
                 headers: {
